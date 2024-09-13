@@ -3,7 +3,7 @@ import React, { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ProtectRoute from './components/auth/ProtectRoute';
 import { LayoutLoader } from './components/layout/Loaders';
-import axios from 'axios';
+import { axios } from 'axios';
 import { server } from './constants/config';
 import { useDispatch, useSelector } from 'react-redux';
 import { userExists, userNotExists } from './redux/reducers/auth';
