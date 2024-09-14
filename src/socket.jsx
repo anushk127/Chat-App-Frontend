@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable react/prop-types */
+import React from 'react';
 import { createContext, useMemo, useContext } from 'react';
 import io from 'socket.io-client';
 import { server } from './constants/config';

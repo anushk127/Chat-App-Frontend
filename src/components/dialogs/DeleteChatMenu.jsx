@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+import React from 'react';
 import { Menu, Stack, Typography } from '@mui/material';
 import { useSelector } from 'react-redux';
 import { setIsDeleteMenu } from '../../redux/reducers/misc';

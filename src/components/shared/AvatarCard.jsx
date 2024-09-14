@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Avatar, AvatarGroup, Box, Stack } from '@mui/material';
-// import React from "react";
+import React from 'react';
 import { transformImage } from '../../lib/features';
 
 // Todo Transform

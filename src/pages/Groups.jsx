@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/display-name */
+import React from 'react';
 import {
   Add as AddIcon,
   Delete as DeleteIcon,

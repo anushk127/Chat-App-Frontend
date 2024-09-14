@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-// import React from 'react'
+import React from 'react';
 import { useFetchData } from '6pp';
 import { Avatar, Skeleton } from '@mui/material';
 import { useEffect, useState } from 'react';

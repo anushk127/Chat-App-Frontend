@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/jsx-key */
 /* eslint-disable no-unused-vars */
-// import React from 'react'
+import React from 'react';
 import { useInputValidation } from '6pp';
 import { Search as SearchIcon } from '@mui/icons-material';
 import {

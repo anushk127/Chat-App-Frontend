@@ -1,7 +1,7 @@
 // import React from 'react'
 
 /* eslint-disable no-unused-vars */
-// import React from 'react'
+import React from 'react';
 import { useEffect, useState } from 'react';
 import AdminLayout from '../../components/layout/AdminLayout';
 import Table from '../../components/shared/Table';

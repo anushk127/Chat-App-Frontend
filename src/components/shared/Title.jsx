@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-// import React from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const Title = ({ title = 'Chat App', description = 'This is a Chat app' }) => {

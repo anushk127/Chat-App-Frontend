@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import React from 'react';
 import { memo } from 'react';
 import { Link } from '../styles/StyledComponents';
 import { Box, Stack, Typography } from '@mui/material';

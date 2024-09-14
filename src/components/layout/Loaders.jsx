@@ -1,4 +1,4 @@
-// import React from 'react'
+import React from 'react';
 import { Grid, Skeleton, Stack } from '@mui/material';
 import { BouncingSkeleton } from '../styles/StyledComponents';
 
