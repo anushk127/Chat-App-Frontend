@@ -54,7 +54,7 @@ const api = createApi({
     chatDetails: builder.query({
       query: ({ chatId, populate = false }) => {
         let url = `chat/${chatId}`;
-        if (populate) url += `?populate=true`;
+        if (populate) url += '?populate=true';
 
         return {
           url,
@@ -83,7 +83,7 @@ const api = createApi({
 
     myGroups: builder.query({
       query: () => ({
-        url: `chat/my/groups`,
+        url: 'chat/my/groups',
         credentials: 'include',
       }),
       providesTags: ['Chat'],
